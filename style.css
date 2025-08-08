@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: rgb(37, 26, 26);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    border: 2px solid black;
+    background: rgb(25, 7, 7,0.9);
+    padding: 24px 34px;
+    border-radius: 12px;
+    
+    
+    
+    
+    
+}
+.watch{
+    font-size: 34px;
+    font-weight: bold;
+
+}
+.buttons{
+    margin-top: 25px;
+}
+.btn{
+    font-size: 23px;
+    background: none;
+    border: none;
+    color: white;
+    background-color: var(--clr);
+    padding: 10px 20px;
+    margin-inline: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
